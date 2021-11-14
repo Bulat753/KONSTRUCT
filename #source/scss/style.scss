@@ -1,0 +1,662 @@
+//ШРИФТЫ header//
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@600&display=swap');
+
+// Обнуляющий стиль //
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+:focus,
+:active {
+  outline: none;
+}
+a:focus,
+a:active {
+  outline: none;
+}
+nav,footer,header,aside {
+  display: block;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+input,button,textarea {
+  font-family: inherit;
+}
+input::-ms-clear {
+  display: none;
+}
+button {
+  cursor: pointer;
+}
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+a,a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+ul li {
+  list-style: none;
+}
+img {
+  vertical-align: top;
+}
+h1,h2,h3,h4,h5,h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+
+
+
+
+
+body{
+
+}
+
+.header {
+  padding: 0 0 0 0;
+}
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.konstuct {
+
+}
+.konstuct__row {
+}
+.konstuct__image {
+  position: absolute;
+}
+.konstuct__body {
+  position: relative;
+}
+.konstuct__logo {
+  display: flex;
+  justify-content: center;
+padding: 42px 0 0 0;
+}
+.konstuct__title {
+ font-family:"Bebas neue"; 
+font-size: 60px;
+display: flex;
+justify-content: center;
+letter-spacing: 5.70937px;
+color: #FFFFFF;
+margin: 320px 0 0 0;
+
+
+}
+.konstuct__subtitle {
+ font-family: "Open Sans"; 
+font-size: 16px;
+line-height: 22px;
+display: flex;
+justify-content: center;
+font-weight: 600;
+color: #FFFFFF;
+
+}
+.konstuct__scroll {
+  font-family: "Open Sans";  
+font-size: 11px;
+display: flex;
+justify-content: center;
+letter-spacing: 3.7px;
+color: #FFFFFF;
+margin: 221px 0 0 0;
+}
+
+
+.nav {
+  margin: 95px 0 0 0;
+  max-height: 65px;
+   
+}
+.container__content {
+  max-width: 940px;
+  margin: 0 auto;
+
+}
+.nav__row {
+  display: flex;
+}
+.nav__logo {
+  margin: 0 425px 0 0;
+}
+.nav__image {
+}
+.nav__column {
+}
+.column__row {
+  display: flex;
+}
+.column__body {
+  
+}
+.column__home {
+font-family: "Open Sans";
+font-size: 12px;
+letter-spacing: 1.09091px;
+color: #48555B;
+}
+.column__about {
+font-family: "Open Sans";
+font-weight: bold;
+font-size: 12px;
+line-height: 16px;
+letter-spacing: 1.09091px;
+color: #00A4E5;
+margin: 0 42px 0 48px;
+}
+.column__services {
+font-family: "Open Sans";
+font-size: 12px;
+letter-spacing: 1.09091px;
+color: #48555B;
+}
+.column__work {
+font-family: "Open Sans";
+font-size: 12px;
+letter-spacing: 1.09091px;
+color: #48555B;
+margin: 0 30px 0 39px;
+}
+.column__contact {
+font-family: "Open Sans";
+font-size: 12px;
+letter-spacing: 1.09091px;
+color: #48555B;
+}
+
+
+
+.ourstory {
+  margin: 57px 0 0 0;
+}
+.container__content {
+}
+.ourstory__title {
+font-family: "Open Sans";
+font-weight: bold;
+font-size: 18px;
+letter-spacing: 2.30625px;
+color: #48555B;
+text-align: center;
+
+}
+.ourstory__line {
+  text-align: center;
+  margin: 10px 0 60px 0;
+}
+.ourstory__row {
+  display: flex;
+}
+.ourstory__body {
+  width: 390px;
+}
+.ourstory__subtitle {
+font-family: "Open Sans";
+font-weight: bold;
+font-size: 20px;
+letter-spacing: 0.1875px;
+color: #48555B;
+line-height: 27px;
+
+}
+.ourstory__subtitle span{
+  color: #00A4E5;
+}
+.ourstory__text {
+font-family: "Open Sans";
+font-size: 13px;
+line-height: 23px;
+letter-spacing: 0.1875px;
+color: #48555B;
+margin: 30px 0 0 0;
+}
+.ourstory__we {
+  margin: 24px 0 0 100px;
+}
+.we__row {
+
+}
+.we__image {
+  position: absolute;
+  
+
+}
+.we__body {
+  position: relative;
+
+}
+.we__text {
+  font-family: "Open Sans";
+  font-size: 24px;
+  letter-spacing: 0.1875px;
+  color: #FFFFFF;
+  width: 68px;
+  line-height: 29px;
+  padding: 15px 20px
+  ;
+}
+
+
+.ourcapabilities {
+  margin: 120px 0 0 0;
+}
+.container__content {
+}
+.ourcapabilities__row {
+  display: flex;
+}
+.ourcapabilities__ourcapabilities {
+}
+.ourcapabilities__title {
+font-family: "Open Sans";
+font-weight: bold;
+font-size: 18px;
+letter-spacing: 2.30625px;
+color: #48555B;
+width: 198px;
+}
+.ourcapabilities__line {
+  margin: 10px 0 0 0;
+}
+.ourcapabilities__body {
+  width: 405px;
+  margin: 0 31px 0 155px;
+}
+.ourcapabilities__text {
+font-family: "Open Sans";
+font-size: 11px;
+margin: -10px 0 19px 0;
+letter-spacing: 0.2px;
+color: #48555B;
+line-height: 19px;
+}
+.ourcapabilities__btn {
+background:#00A4E5 ;
+width: 150px;
+height: 40px;
+align-items: center;
+display: flex;
+justify-content: center;
+margin: -10px 0 0 0;
+}
+.ourcapabilities__allservices {
+font-family: "Open Sans";
+font-weight: bold;
+font-size: 13px;
+letter-spacing: 0.5px;
+color: #FFFFFF;
+}
+
+
+.project {
+  margin: 78px 0 0 0;
+  
+}
+.container__content {
+  
+}
+.project__row {
+  display: flex;
+}
+.project__columns {
+ flex: 0 1 33.333%;
+ margin: 0 14px;
+ border: 1px solid #E6E6E6;
+ height: 330px;
+ width: 250px;
+ padding: 40px 22px
+}
+.project__items {
+  width: 250px;
+  padding: 0 -14px;
+
+}
+.items__row {
+}
+.item__image {
+}
+.item__body {
+  margin: 25px 0 0 0;
+}
+.item__title {
+font-family: "Open Sans";
+font-weight: 700;
+font-size: 16px;
+letter-spacing: 0.426667px;
+color: #48555B;
+line-height: 24px;
+}
+.item__text {
+font-family: "Open Sans";
+font-size: 13px;
+color: #48555B;
+margin: 13px 0 0 0;
+line-height: 23px;
+}
+
+.want {
+  margin: 115px 0 0 0;
+}
+.container {
+}
+.want__row {
+}
+.want__image {
+  position: absolute;
+}
+.want__body {
+  position: relative;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+}
+.want__title {
+font-family: "Open Sans";
+font-weight: bold;
+font-size: 30px;
+letter-spacing: 0.15px;
+color: #48555B;
+width: 350px;
+padding: 120px 0 0 0;
+margin: 0 0 0 60px;
+}
+.want__title p:nth-child(1) {
+  margin: 0 0 0 45px;
+}
+.want__btn {
+font-family: "Open Sans";
+font-weight: bold;
+font-size: 13px;
+line-height: 18px;
+letter-spacing: 0.5px;
+color: #FFFFFF;
+background: #00A4E5;
+width: 150px;
+height: 40px;
+display: flex;
+justify-content: center;
+align-items: center;
+margin: 35px 0 0 0;
+}
+
+.newsletter {
+  margin: 242px 0 0 0;
+  
+}
+.container {
+  max-width: 1440px;
+}
+.newsletter__row {
+  display: flex;
+  background: #171819;
+  height: 100px;
+}
+.newsletter__body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.newsletter__text {
+font-family: "Open Sans";
+font-weight: bold;
+font-size: 22px;
+letter-spacing: 0.846154px;
+color: #FFFFFF;
+padding: 0 0 0 378px;
+}
+.newsletter__form {
+  padding: 35px 0 0 0;
+  margin: 0 0 0 70px;
+}
+.newsletter__input {
+  width: 250px;
+height: 40px;
+padding: 0 0 0 16px;
+font-family: "Open Sans";
+font-size: 14px;
+letter-spacing: 0.07px;
+color: #48555B;
+margin: -5px 0 0 0;
+}
+.newsletter__btn {
+font-family: "Open Sans";
+font-weight: bold;
+font-size: 13px;
+letter-spacing: 0.5px;
+color: #FFFFFF;
+background: #00A4E5;
+width: 150px;
+height: 40px;
+display: flex;
+justify-content: center;
+align-items: center;
+margin: 30px 0 0 0;
+}
+.newsletter{
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+
+
+
+
+
+.company {
+   
+}
+.container__company {
+max-width: 1440px;
+margin: 0 auto;
+padding: 40px 0 50px 250px;
+background-color:#141A20;
+}
+.company__row {
+  display: flex;
+}
+.company__body_company {
+  width: 250px;
+}
+.company__title {
+font-family: "Open Sans";
+font-size: 11px;
+letter-spacing: 0.846154px;
+color: #FFFFFF;
+}
+.company__label {
+  margin: 20px 0;
+}
+.company__text {
+font-family: "Open Sans";
+font-size: 11px;
+line-height: 19px;
+letter-spacing: 0.85px;
+width: 270px;
+color: #FFFFFF;
+}
+.company__body_links {
+  margin: 0 34px 0 70px;
+}
+.links__links {
+font-family: "Open Sans";
+font-size: 11px;
+letter-spacing: 0.846154px;
+color: #FFFFFF;
+}
+.links__home {
+font-family: "Open Sans";
+font-size: 11px;
+letter-spacing: 0.846154px;
+color: #FFFFFF;
+margin: 16px 0 ;
+}
+.links__about {
+font-family: "Open Sans";
+font-size: 11px;
+letter-spacing: 0.846154px;
+color: #FFFFFF;
+}
+.links__services {
+font-family: "Open Sans";
+font-size: 11px;
+letter-spacing: 0.846154px;
+color: #FFFFFF;
+margin: 16px 0 ;
+}
+.links__projects {
+font-family: "Open Sans";
+font-size: 11px;
+letter-spacing: 0.846154px;
+color: #FFFFFF;
+margin: 0 0 16px 0;
+}
+.links__contactus {
+font-family: "Open Sans";
+font-size: 11px;
+letter-spacing: 0.846154px;
+color: #FFFFFF;
+}
+.company__body_faq {
+}
+.faq__faq {
+font-family: "Open Sans";
+font-size: 11px;
+letter-spacing: 0.846154px;
+color: #FFFFFF;
+margin: 25px 0 16px 0;
+}
+.faq__terms {
+font-family: "Open Sans";
+font-size: 11px;
+letter-spacing: 0.846154px;
+color: #FFFFFF;
+}
+.faq__careers {
+font-family: "Open Sans";
+font-size: 11px;
+letter-spacing: 0.846154px;
+color: #FFFFFF;
+margin: 16px 0 0 0;
+}
+.company__body_blog {
+  margin: 0 58px 0 38px;
+}
+.blog__blog {
+font-family: "Open Sans";
+font-size: 11px;
+letter-spacing: 0.846154px;
+color: #FFFFFF;
+margin: 25px 0 16px 0;
+}
+.blog__partners {
+font-family: "Open Sans";
+font-size: 11px;
+letter-spacing: 0.846154px;
+color: #FFFFFF;
+}
+.blog__news {
+font-family: "Open Sans";
+font-size: 11px;
+letter-spacing: 0.846154px;
+color: #FFFFFF;
+margin: 16px 0 0 0;
+}
+.company__body_contactus {
+  width: 135px;
+}
+.contactus__contactus {
+font-family: "Open Sans";
+font-size: 11px;
+letter-spacing: 0.846154px;
+color: #FFFFFF;
+}
+.contactus__adress {
+font-family: "Open Sans";
+font-size: 11px;
+letter-spacing: 0.846154px;
+color: #FFFFFF;
+line-height: 16px;
+margin: 13px 0 16px 0;
+}
+.contactus__telephone {
+font-family: "Open Sans";
+font-size: 11px;
+letter-spacing: 0.846154px;
+color: #FFFFFF;
+}
+.contactus__email {
+font-family: "Open Sans";
+font-size: 11px;
+letter-spacing: 0.846154px;
+color: #FFFFFF;
+margin: 16px 0 0 0;
+}
+.company__icons {
+  margin: 25px 0 0 80px;
+}
+.icons__row {
+  display: flex;
+  cursor: pointer;
+
+}
+.icon__fb {
+margin: 0 -85px 0 0px;
+}
+.icon__twitter {
+  margin: 0 -85px 0 0px;
+}
+.icon__google {
+}
+
+
+
+
+.footer {
+  background: #171819;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.footer__row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+}
+
+.footer__text {
+font-family: "Open Sans";
+font-size: 11px;
+letter-spacing: 0.846154px;
+color: #FFFFFF;
+}
